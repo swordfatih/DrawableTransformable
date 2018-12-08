@@ -2,7 +2,7 @@
 #include <vector>
 #include <memory>
 
-using Drawable = std::shared_ptr<sf::Drawable>;
+using Drawable = std::shared_ptr<sf::Drawable>; 
 using Transformable = std::shared_ptr<sf::Transformable>;
 using drawableTransformable = std::pair<Drawable, Transformable>;
 
