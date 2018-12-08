@@ -5,7 +5,7 @@
 using Drawable = std::shared_ptr<sf::Drawable>; 
 using Transformable = std::shared_ptr<sf::Transformable>;
 using drawableTransformable = std::pair<Drawable, Transformable>;
-
+ 
 int main()
 {
     sf::RenderWindow window({940, 480}, "Window");
