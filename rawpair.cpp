@@ -3,7 +3,7 @@
 
 using drawableTransformable = std::pair<sf::Drawable*, sf::Transformable*>;
 
-int main()
+int main() 
 {
     sf::RenderWindow window({940, 480}, "Window");
 
